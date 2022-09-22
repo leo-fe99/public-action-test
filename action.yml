@@ -5,6 +5,10 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
+  jsonResult:
+    description: "txt file with the output of the tests"
+    required: true
+    default: "error: no test!"
 outputs:
   time: # id of output
     description: "The time we greeted you"
