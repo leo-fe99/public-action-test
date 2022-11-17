@@ -8,7 +8,7 @@ try {
     console.log(variable[0])
   }
   catch(e){
-    console.log("eror")
+    console.log("error")
   }
 } catch (error) {
   core.setFailed(error.message);
