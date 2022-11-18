@@ -2,6 +2,8 @@ const core = require("@actions/core");
 
 try {
   const variable = core.getInput("variable");
+  const array = variable.split("\n")
+  console.log(array[2])
   console.log(variable)
   console.log(typeof variable)
   try{
